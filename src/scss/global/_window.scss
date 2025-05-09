@@ -1,0 +1,14 @@
+@use "../utils/typography" as typography;
+
+.window-app {
+  font-family: typography.$font-primary;
+}
+
+.rollable {
+  &:hover,
+  &:focus {
+    color: #000;
+    text-shadow: 0 0 10px red;
+    cursor: pointer;
+  }
+}
